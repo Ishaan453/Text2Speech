@@ -4,7 +4,7 @@ This is a Text-to-Speech (TTS) application that converts input text into an MP3 
 
 ## Architecture Overview
 
-![Architecture Diagram](https://github.com/Ishaan453/Text2Speech/blob/master/Architecture/architecture.png)
+![Architecture Diagram](https://github.com/Ishaan453/Text2Speech/blob/master/Images/architecture.png)
 
 The architecture consists of the following components:
 
@@ -29,3 +29,8 @@ The project structure is organized as follows:
     - `lambda_function.py`: AWS Lambda function code for text-to-speech conversion.
   - **Architecture/**
     - `architecture.png`: Architecture diagram image.
+
+## Application View
+<img src="https://github.com/Ishaan453/Text2Speech/blob/master/Images/App1.jpg" alt="App Image 1" width="500"/>
+
+<img src="https://github.com/Ishaan453/Text2Speech/blob/master/Images/App2.jpg" alt="App Image 2" width="500"/>
