@@ -32,5 +32,3 @@ The project structure is organized as follows:
 
 ## Application View
 <img src="https://github.com/Ishaan453/Text2Speech/blob/master/Images/App1.jpg" alt="App Image 1" width="500"/>
-
-<img src="https://github.com/Ishaan453/Text2Speech/blob/master/Images/App2.jpg" alt="App Image 2" width="500"/>
