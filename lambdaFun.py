@@ -15,8 +15,8 @@ def lambda_handler(event, context):
 
         # Store audio in a temporary S3 bucket
         s3.put_object(
-            Bucket='temp-audio-text-to-speech',  # Replace with your S3 bucket name
-            Key='speech.mp3',  # Replace with your desired filename
+            Bucket='temp-audio-text-to-speech',
+            Key='speech.mp3', 
             Body=response['AudioStream'].read()
         )
 
@@ -25,7 +25,7 @@ def lambda_handler(event, context):
         presigned_url = s3.generate_presigned_url(
             ClientMethod='get_object',
             Params={'Bucket': 'temp-audio-text-to-speech', 'Key': 'speech.mp3'},
-            ExpiresIn=3600  # Set expiration time for the URL
+            ExpiresIn=3600 
         )
 
         return {
