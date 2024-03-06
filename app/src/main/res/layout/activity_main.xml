@@ -23,24 +23,24 @@
 
     <EditText
         android:id="@+id/text"
-        android:inputType="textMultiLine"
         android:layout_width="match_parent"
-        android:lines="5"
-        android:gravity="top|start"
-        android:maxLines="5"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:hint="Text"
-        android:padding="10sp"
-        android:background="@drawable/edittext_back"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:background="@drawable/edittext_back"
+        android:gravity="top|start"
+        android:hint="Text"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10sp"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/convertBTN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/dropDown" />
 
     <TextView
         android:id="@+id/textView"
@@ -53,12 +53,25 @@
         android:text="Enter The Text"
         android:textAlignment="center"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintBottom_toTopOf="@+id/dropDown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_chainStyle="spread" />
+
+    <Spinner
+        android:id="@+id/dropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/text_back"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <ImageView
         android:id="@+id/imageView"
