@@ -31,4 +31,5 @@ The project structure is organized as follows:
     - `architecture.png`: Architecture diagram image.
 
 ## Application View
-<img src="https://github.com/Ishaan453/Text2Speech/blob/master/Images/App1.jpg" alt="App Image 1" width="500"/>
+https://github.com/Ishaan453/Text2Speech/assets/79138066/1e78f9bc-0fe5-4d0b-80e9-069b4072f6ac
+
