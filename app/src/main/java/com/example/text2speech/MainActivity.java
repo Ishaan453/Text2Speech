@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Calling the API
     void CallAPI(String Text, String speaker){
-        // Please paste our API URL here
+        // Please paste the API URL here
         String apiUrl = "secret";
 
         // Creating a JSON String to pass into the API.
