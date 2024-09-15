@@ -18,17 +18,6 @@ The architecture consists of the following components:
 
 5. **Amazon S3:** The generated MP3 files are stored in an S3 bucket.
 
-## Project Structure
-
-The project structure is organized as follows:
-
-- **Text2Speech/**
-  - **API/**
-    - `Speech`: Implementation of the REST API.
-  - **Lambda/**
-    - `lambda_function.py`: AWS Lambda function code for text-to-speech conversion.
-  - **Architecture/**
-    - `architecture.png`: Architecture diagram image.
 
 ## Application View
 https://github.com/Ishaan453/Text2Speech/assets/79138066/1e78f9bc-0fe5-4d0b-80e9-069b4072f6ac
